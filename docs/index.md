@@ -13,6 +13,10 @@ permalink: /
 
 ***
 
+* _Skera_ is currently an alpha release. The output(s), formats, and functionality is not finalized. Expect changes. *
+
+***
+
 _Skera_ splits arrayed PacBio reads at adapter positions generating
 ([read-segments](/read-segments)). For each input/parent read (e.g. HiFi)
 _skera_ will create multiple bam records, one for each fragment. A parent read

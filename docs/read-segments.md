@@ -14,10 +14,9 @@ description: "Description of S-reads."
 
 ## Segmented Reads
 
-Segmented reads (S-reads) are the fragments (Seq 1..4) that make up the parent
-read shown in the figure above.
+Segmented reads (S-reads) are fragments cut out of the original read. The schematic above shows a read before and the fragments (Seq 1..4) after being split.
 
-## Segmented reads names
+## Segmented read names
 
 For segmented reads, the base ``QNAME`` follows the CCS read conventions, while
 also appending the 0-based coordinate interval ``[qStart, qEnd)`` that
