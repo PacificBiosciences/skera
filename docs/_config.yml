@@ -27,7 +27,7 @@ tagline: "TBD"
 
 search_enabled: true
 
-url: "https://skera.how"
+url: "https://pacificbiosciences.github.io/skera/"
 
 plugins:
   - jekyll-redirect-from
