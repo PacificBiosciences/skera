@@ -7,4 +7,4 @@ nav_order: 99
 # Version changelog
 
 **0.1.0**
-   * First release of `skera`
+   * Alpha release of `skera`
