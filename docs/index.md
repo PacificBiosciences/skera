@@ -6,7 +6,6 @@ description: "PacBio deconcatenation tool."
 permalink: /
 ---
 
-
 <p align="center">
   <img src="img/skera-header.png" alt="skera logo" width="600px"/>
 </p>
