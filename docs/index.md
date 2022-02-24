@@ -13,7 +13,7 @@ permalink: /
 
 ***
 
-* _Skera_ is currently an alpha release. The output(s), formats, and functionality is not finalized. Expect changes. *
+_Skera_ is currently an alpha release. The output(s), formats, and functionality is not finalized. Expect changes.
 
 ***
 
@@ -24,12 +24,9 @@ can contain many fragments. _Skera_ has two major functions, split and undo.
 _Skera_ undo reconstitutes the original parent read from input fragments;
 _Skera_ undo is not yet implemented.
 
-The _skera_ tool is in beta. Expect continual changes, which may change the
-algorithm and or the command line interface.
-
 ## Availability
 The latest version of `skera` is distributed through
 [BioConda](https://github.com/PacificBiosciences/pbbioconda).
 
 ## Versions
-Version **0.1.0**: [Full changelog here](/change-log)
+Version **0.0.100**: [Full changelog here](/change-log)
