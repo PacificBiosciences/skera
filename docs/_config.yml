@@ -23,7 +23,7 @@ gh_edit_link: false # show or hide edit this page link
 
 
 title: "Skera Docs"
-tagline: "TBD"
+tagline: "PacBio deconcatenation tool"
 
 search_enabled: true
 
