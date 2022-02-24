@@ -34,3 +34,8 @@ Installation, Support, License, Copyright, and Disclaimer.
 
 ## Versions
 Version **0.0.100**: [Full changelog here](/skera/changelog)
+
+## Execution
+Skera run on HiFi reads in PacBio BAM format:
+
+    skera --algorithm kmer <movie>.hifi_reads.bam adapters.fasta <movie>.skera.bam
