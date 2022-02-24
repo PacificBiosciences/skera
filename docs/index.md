@@ -8,7 +8,7 @@ permalink: /
 
 
 <p align="center">
-  <img src="img/skera-card.png" alt="skera logo" width="600px"/>
+  <img src="img/skera-header.png" alt="skera logo" width="600px"/>
 </p>
 
 ***
