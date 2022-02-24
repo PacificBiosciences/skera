@@ -13,7 +13,9 @@ permalink: /
 
 ***
 
-_Skera_ is currently an alpha release. The output(s), formats, and functionality is not finalized. Expect changes.
+<center>
+⚠️ <i>Skera</i> is currently an alpha release. Output(s), formats, and functionality are not finalized. Expect major changes.
+</center>
 
 ***
 
@@ -25,8 +27,11 @@ _Skera_ undo reconstitutes the original parent read from input fragments;
 _Skera_ undo is not yet implemented.
 
 ## Availability
-The latest version of `skera` is distributed through
-[BioConda](https://github.com/PacificBiosciences/pbbioconda).
+The latest `skera` can be installed via the bioconda.
+
+Please refer to our [official pbbioconda
+page](https://github.com/PacificBiosciences/pbbioconda) for information on
+Installation, Support, License, Copyright, and Disclaimer.
 
 ## Versions
 Version **0.0.100**: [Full changelog here](/changelog)
