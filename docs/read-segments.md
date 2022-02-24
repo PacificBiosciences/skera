@@ -14,7 +14,7 @@ description: "Description of S-reads."
 
 ## Segmented Reads
 
-Segmented reads (S-reads) are fragments cut out of the original read. The schematic above shows a read before and the fragments (Seq 1..4) after being split.
+A segmented read (S-read) is comprised of multiple fragments. The figure above shows an S-read with four fragments (Seq 1..4).
 
 ## Segmented read names
 
