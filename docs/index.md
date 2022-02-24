@@ -29,4 +29,4 @@ The latest version of `skera` is distributed through
 [BioConda](https://github.com/PacificBiosciences/pbbioconda).
 
 ## Versions
-Version **0.0.100**: [Full changelog here](/change-log)
+Version **0.0.100**: [Full changelog here](/changelog)
