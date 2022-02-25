@@ -27,6 +27,8 @@ tagline: "PacBio deconcatenation tool"
 
 search_enabled: true
 
+url: "https://skera.how"
+
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
