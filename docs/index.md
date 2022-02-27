@@ -33,9 +33,18 @@ page](https://github.com/PacificBiosciences/pbbioconda) for information on
 Installation, Support, License, Copyright, and Disclaimer.
 
 ## Versions
-Version **0.0.100**: [Full changelog here](/changelog)
+Version **0.0.101**: [Full changelog here](/changelog)
+
+## Input
+### Reads
+HiFi reads in PacBio BAM format.
+
+### Adapters
+Adapters must be in FASTA format `<adapters.fasta>` and ordered in the expected 
+order of adapters in the reads. There should be one entry per adapter (forward 
+or reverse-complement orientation) with no overlapping adapter sequences. 
 
 ## Execution
 Skera run on HiFi reads in PacBio BAM format:
 
-    skera --algorithm kmer <movie>.hifi_reads.bam adapters.fasta <movie>.skera.bam
+    skera <movie>.hifi_reads.bam adapters.fasta <movie>.skera.bam
