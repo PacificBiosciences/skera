@@ -33,7 +33,7 @@ page](https://github.com/PacificBiosciences/pbbioconda) for information on
 Installation, Support, License, Copyright, and Disclaimer.
 
 ## Versions
-Version **0.0.101**: [Full changelog here](/changelog)
+Version **0.0.102**: [Full changelog here](/changelog)
 
 ## Input
 ### Reads
