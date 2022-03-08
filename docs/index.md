@@ -40,9 +40,7 @@ Version **0.0.102**: [Full changelog here](/changelog)
 HiFi reads in PacBio BAM format.
 
 ### Adapters
-Adapters must be in FASTA format `<adapters.fasta>` and ordered in the expected 
-order of adapters in the reads. There should be one entry per adapter (forward 
-or reverse-complement orientation) with no overlapping adapter sequences. 
+[Adapters](/adapters) in FASTA format. 
 
 ## Execution
 Skera run on HiFi reads in PacBio BAM format:
