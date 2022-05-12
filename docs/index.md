@@ -22,8 +22,7 @@ _Skera_ splits arrayed PacBio reads at adapter positions generating
 ([read-segments](/read-segments)). For each input/parent read (e.g. HiFi)
 _skera_ will create multiple bam records, one for each fragment. A parent read
 can contain many fragments. _Skera_ has two major functions, split and undo.
-_Skera_ undo reconstitutes the original parent read from input fragments;
-_Skera_ undo is not yet implemented.
+_Skera_ undo reconstitutes the original parent read from input fragments.
 
 ## Availability
 The latest `skera` can be installed via the bioconda.
@@ -33,7 +32,7 @@ page](https://github.com/PacificBiosciences/pbbioconda) for information on
 Installation, Support, License, Copyright, and Disclaimer.
 
 ## Versions
-Version **0.0.102**: [Full changelog here](/changelog)
+Version **0.1.0**: [Full changelog here](/changelog)
 
 ## Input
 ### Reads
@@ -43,6 +42,10 @@ HiFi reads in PacBio BAM format.
 [Adapters](/adapters) in FASTA format. 
 
 ## Execution
-Skera run on HiFi reads in PacBio BAM format:
+Skera split run on HiFi reads in PacBio BAM format:
 
-    skera <movie>.hifi_reads.bam adapters.fasta <movie>.skera.bam
+    skera split <movie>.hifi_reads.bam adapters.fasta <movie>.skera.bam
+
+Skera undo:
+
+    skera undo <movie>.skera.bam <movie>.undo.bam 

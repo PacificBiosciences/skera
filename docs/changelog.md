@@ -6,6 +6,12 @@ nav_order: 99
 
 # Version changelog
 
+**0.1.0**
+   * Update to CLI
+   * Add skera `split` / `undo` tools
+   * Introduce SEGMENT read type
+   * Bug fixes
+
 **0.0.102**
    * Improve runtime
 
