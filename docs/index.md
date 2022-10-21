@@ -10,19 +10,11 @@ permalink: /
   <img src="img/skera-header.png" alt="skera logo" width="600px"/>
 </p>
 
-***
-
-<center>
-⚠️ <i>Skera</i> is currently an alpha release. Output(s), formats, and functionality are not finalized. Expect major changes.
-</center>
-
-***
-
-_Skera_ splits arrayed PacBio reads at adapter positions generating
-([read-segments](/read-segments)). For each input/parent read (e.g. HiFi)
-_skera_ will create multiple bam records, one for each fragment. A parent read
-can contain many fragments. _Skera_ has two major functions, split and undo.
-_Skera_ undo reconstitutes the original parent read from input fragments.
+_Skera_ splits arrayed PacBio HiFi reads at adapter positions generating segmented reads 
+([S-reads](/read-segments)). For each input/parent read (e.g. HiFi)
+_skera_ will create multiple bam records, one for each S-read. A parent read
+can contain many S-reads. _Skera_ has two major functions, split and undo.
+_Skera_ undo reconstitutes the original parent read from input S-reads.
 
 ## Availability
 The latest `skera` can be installed via the bioconda.
