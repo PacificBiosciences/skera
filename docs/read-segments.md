@@ -19,7 +19,7 @@ A segmented read (S-read) is comprised of multiple fragments. The figure above s
 
 For segmented reads, the base ``QNAME`` follows the CCS read conventions, while
 also appending the 0-based coordinate interval ``[qStart, qEnd)`` that
-represents its span within the CCS read. If the CCS read is split by strand
+represents its span within the HiFi read. If the HiFi read is split by strand the ``[qStart, qEnd)`` will follow the strand information.
 
 ```
   default:
@@ -32,7 +32,7 @@ represents its span within the CCS read. If the CCS read is split by strand
 
 | BAM tag | Type  |           Description            |     Example     |
 | :-----: | :---: | -------------------------------- | :-------------- |
-|  `di`   |  `i`  | Index of read segment            | `di:i:0`        |
+|  `di`   |  `i`  | Index of S-read           | `di:i:0`        |
 |  `qs`   |  `i`  | qStart of segment in parent read | `qs:i:16`       |
 |  `qe`   |  `i`  | qEnd of segment in parent read   | `qe:i:450`      |
 |  `dl`   |  `i`  | Leading adapter index            | `dl:i:0`        |
