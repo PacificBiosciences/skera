@@ -18,6 +18,8 @@ order of adapters in the reads. There should be one entry per adapter (forward
 or reverse-complement orientation) with no overlapping adapter sequences. 
 Duplicate names or sequences are not allowed.
 
+An example MAS adapter fasta can be downloaded [here](https://downloads.pacbcloud.com/public/dataset/MAS-Seq/REF-MAS_adapters/MAS-Seq_Adapter_v1/).
+
 ```
 >A
 AGCTTACTTGTGAAGA
