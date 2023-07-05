@@ -6,6 +6,10 @@ nav_order: 99
 
 # Version changelog
 
+**1.1.0**
+   * Revio support
+   * Additional reports
+
 **0.1.0**
    * Update to CLI
    * Add skera `split` / `undo` tools
