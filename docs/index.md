@@ -26,7 +26,7 @@ page](https://github.com/PacificBiosciences/pbbioconda) for information on
 Installation, Support, License, Copyright, and Disclaimer.
 
 ## Versions
-Version **0.1.0**: [Full changelog here](/changelog)
+Version **1.1.0**: [Full changelog here](/changelog)
 
 ## Input
 ### HiFi Reads
