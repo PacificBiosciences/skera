@@ -6,7 +6,10 @@ nav_order: 99
 
 # Version changelog
 
-* **1.2.0**
+* **1.3.0**
+   * SMRT Link v25.1 release
+
+* 1.2.0
    * SMRT Link v13 release
 
 * 1.1.0
