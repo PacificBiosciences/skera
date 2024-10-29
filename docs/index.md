@@ -12,7 +12,7 @@ permalink: /
 
 
 
-_Skera_ splits [MAS-Seq](https://www.pacb.com/products-and-services/applications/rna-sequencing/single-cell-rna-sequencing/) PacBio HiFi reads at adapter positions generating segmented reads 
+_Skera_ splits [Kinnex](https://www.pacb.com/products-and-services/applications/rna-sequencing/single-cell-rna-sequencing/) PacBio HiFi reads at adapter positions generating segmented reads
 ([S-reads](/read-segments)). For each input/parent read (e.g. HiFi)
 _skera_ will create multiple bam records, one for each S-read. A parent read
 can contain many S-reads. _Skera_ has two major functions, split and undo.
@@ -26,14 +26,14 @@ page](https://github.com/PacificBiosciences/pbbioconda) for information on
 Installation, Support, License, Copyright, and Disclaimer.
 
 ## Versions
-Version **1.2.0**: [Full changelog here](/changelog)
+Version **1.3.0**: [Full changelog here](/changelog)
 
 ## Input
 ### HiFi Reads
 HiFi reads in PacBio BAM format.
 
 ### Adapters
-[Adapters](/adapters) in FASTA format. 
+[Adapters](/adapters) in FASTA format.
 
 ## Execution
 Skera split run on HiFi reads in PacBio BAM format:
@@ -42,4 +42,4 @@ Skera split run on HiFi reads in PacBio BAM format:
 
 Skera undo:
 
-    skera undo <movie>.skera.bam <movie>.undo.bam 
+    skera undo <movie>.skera.bam <movie>.undo.bam
