@@ -12,7 +12,7 @@ permalink: /
 
 
 
-_Skera_ splits [Kinnex](https://www.pacb.com/products-and-services/applications/rna-sequencing/single-cell-rna-sequencing/) PacBio HiFi reads at adapter positions generating segmented reads
+_Skera_ splits [Kinnex](https://www.pacb.com/technology/kinnex/) HiFi reads at adapter positions generating segmented reads
 ([S-reads](/read-segments)). For each input/parent read (e.g. HiFi)
 _skera_ will create multiple bam records, one for each S-read. A parent read
 can contain many S-reads. _Skera_ has two major functions, split and undo.
