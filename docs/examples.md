@@ -17,7 +17,7 @@ wget https://downloads.pacbcloud.com/public/dataset/MAS-Seq/DATA-Revio-Kinnex-HG
 wget https://downloads.pacbcloud.com/public/dataset/MAS-Seq/REF-MAS_adapters/MAS-Seq_Adapter_v1/mas16_primers.fasta
 
 # run skera split to generate segmented reads
-skera m84039_240124_190648_s3.hifi_reads.bcM0002.bam mas16_primers.fasta segmented.bam
+skera split m84039_240124_190648_s3.hifi_reads.bcM0002.bam mas16_primers.fasta segmented.bam
 ```
 
 An example of the `segmented.bam` output can be found [here](https://downloads.pacbcloud.com/public/dataset/MAS-Seq/DATA-Revio-Kinnex-HG002-10x5p/1-Sreads/). 
