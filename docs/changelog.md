@@ -6,7 +6,12 @@ nav_order: 99
 
 # Version changelog
 
-* **1.4.0**
+* **26.2.0**
+   * SMRT Link v26.2 release
+   * Add minimum segmented read length filter
+   * Check input datasets for existing segmented reads
+
+* 1.4.0
    * Support ultra-high memory Linux systems
 
 * 1.3.0
