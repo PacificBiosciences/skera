@@ -5,7 +5,7 @@ nav_order: 3
 description: "Description of Adapters."
 ---
 
-<p align="center">  
+<p align="center">
   <img src="img/segmented-read.png" alt="skera logo" width="700px"/>
 </p>
 
