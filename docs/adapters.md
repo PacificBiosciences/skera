@@ -18,7 +18,7 @@ order of adapters in the reads. There should be one entry per adapter (forward
 or reverse-complement orientation) with no overlapping adapter sequences. 
 Duplicate names or sequences are not allowed.
 
-Different Kinnex kits offer different concatenation factors. Choose the MAS/Kinnex adapter FASTA file accordingly. They can be downloaded [here](https://downloads.pacbcloud.com/public/dataset/MAS-Seq/REF-MAS_adapters/).
+Different Kinnex kits offer different concatenation factors. Choose the MAS/Kinnex adapter FASTA file accordingly. Adapter FASTA files can be downloaded for [Kinnex single-cell RNA](https://downloads.pacbcloud.com/public/dataset/Kinnex-single-cell-RNA/REF-MAS_adapters/) and [Kinnex full-length RNA](https://downloads.pacbcloud.com/public/dataset/Kinnex-full-length-RNA/REF-MAS_adapters/).
 
 ```
 >A
